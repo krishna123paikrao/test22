@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0;
+   
+    box-sizing: border-box;
+   
+}
+.navelements {
+    background-color: #303030;
+ align-items: center;
+ justify-content: space-around;
+ display: flex;
+ padding: 10px;
+}
+.navelements ul{
+    display: flex;
+}
+
+.navelements ul li {
+list-style-type: none;
+margin-inline: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+.ul li{
+    display: flex;
+}
+.icons {
+    color: white;
+    position: relative;
+  
+    
+}
+.icons i{
+    padding: 0px 20px;
+}
+.logo{
+    color: white;
+}
+#landing1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new1{
+    color: #6E6E73;
+font-size: 17px;
+font-family: SF Pro Text;
+font-weight: 400;
+line-height: 25px;
+word-wrap: break-word;
+}
+.BB{
+    color: #2CA2B4;
+font-size: 48px;
+font-family: SF Pro Display;
+font-weight: 700;
+line-height: 52.01px;
+word-wrap: break-word;
+}
+.PRICE{
+    color: #1D1D1F;
+font-size: 21px;
+font-family: SF Pro Display;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.23px;
+word-wrap: break-word
+}
